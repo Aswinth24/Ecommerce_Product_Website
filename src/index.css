@@ -465,10 +465,20 @@ span {
   font-weight: 600;
 }
 /* left extra */
-.left_cont>.product-img>.previous1,.next1{
-   visibility: hidden;
+.left_cont > .product-img > .previous1,
+.next1 {
+  visibility: hidden;
+}
+.navbar > ul > .navbar-close {
+  visibility: hidden;
 }
 @media screen and (max-width: 1000px) {
+  body {
+    padding:0 5%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
   .main {
     flex-direction: column;
     padding: 60px 0;
@@ -517,32 +527,8 @@ span {
     width: 100%;
     height: 100%;
   }
-}
-.navbar > ul > .navbar-close {
-  visibility: hidden;
-}
-@media screen and (max-width: 800px) {
-  body {
-    padding: 0%;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-  }
-  .body-overlay.visible {
-    width: 100%;
-    min-height: 100%; 
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0, 0.7);
-  }
-  .header {
-    width: 100%;
-    padding: 0;
-    border: none;
-    padding: 20px;
-    gap: 20px;
+  .nav-cont {
+    gap: 2%;
   }
   .menu-bar {
     visibility: visible;
@@ -552,10 +538,9 @@ span {
   .navbar {
     position: absolute;
     z-index: 4;
-    width: 0px;
-    height: 0px;
     visibility: hidden;
-    min-height: 100%;
+    height: 100%;
+   
     width: 200px;
     top: 0;
     left: -200px;
@@ -598,6 +583,41 @@ span {
     font-weight: 700;
     font-size: var(--medium-font-size);
   }
+  .header {
+    width: 100%;
+    padding: 0;
+
+    padding: 20px;
+    gap: 20px;
+  }
+  .body-overlay.visible {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    padding:0%;
+  }
+  .body-overlay.visible {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .header {
+    border: none;
+  }
+
   .thumbnail {
     visibility: hidden;
     display: none;
@@ -659,9 +679,13 @@ span {
   .pric-tag > span {
     padding: 10px 5px;
   }
-  .left_cont>.product-img>.previous1,.next1{
+  .left_cont > .product-img > .previous1,
+  .next1 {
     visibility: visible;
- }
+  }
+  .cart-card-cont {
+    z-index: 10;
+  }
 }
 @media screen and (max-width: 300px) {
   .left_cont {

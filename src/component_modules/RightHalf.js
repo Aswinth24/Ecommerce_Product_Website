@@ -15,6 +15,7 @@ const RightHalf = () => {
     <div className="right_half">
       <div className="right-container">
         <span className="company"> Sneaker Company</span>
+        <div></div>
         <h1>Fall Limited Edition Sneakers</h1>
         <p>
           These low-profile sneakers are your perfect casual wear companion.

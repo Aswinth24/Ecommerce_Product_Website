@@ -25,7 +25,7 @@ function Header() {
 
         <div className="nav-cont">
           <div className="logo">
-            <h2>sneakers</h2>
+            <h1>sneakers</h1>
           </div>
           <nav className={"navbar" + (flag1 === false ? "" : " visible")}>
             <ul>
