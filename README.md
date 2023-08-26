@@ -1,15 +1,13 @@
 # E-commerce product page
+**My First React project..**
 
-
-## Welcome! 👋
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
+|||
+|---|---|
+|**link**|<a href="https://ecommerce-product-website-t1zguzxz5-aswinth24.vercel.app/">**Live URL**</a>|
 ## The challenge
 
-Your challenge is to build out this e-commerce product page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Your challenge is building this e-commerce product page and getting it as close to the design as possible.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to try it.
 
 ## Finished
 
